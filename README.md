@@ -4,8 +4,8 @@
 
 This Dockerfile builds a PHP base image based on `php:{PHP_VERSION}-fpm` with the following extensions installed:
 
-* **gRPC (v1.65.2):**  For building high-performance, open-source, general-purpose RPC frameworks.
-* **Protobuf (v4.27.3):** Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+* **gRPC (v1.66.0):**  For building high-performance, open-source, general-purpose RPC frameworks.
+* **Protobuf (v4.28.1):** Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
 * **OpenTelemetry (v1.0.3):**  A collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis.
 * **Redis (v6.0.2):** An in-memory data structure store, used as a database, cache, and message broker.
 * **Xdebug (v3.3.2):** A powerful debugging and profiling tool for PHP.
@@ -40,4 +40,5 @@ Currently, this image **only supports PHP version 8.2**. The `PHP_VERSION` argum
 
 ### Included PHP Configuration
 
-This image includes a custom `php.ini` file located at `/usr/local/etc/php/conf.d/custom-php.ini`. You can modify this file to adjust PHP settings according to your needs. Remember to rebuild the image after making any changes to the `php.ini` file.
+This image includes a custom `php.ini` file located at `/usr/local/etc/php/conf.d/custom-php.ini`. 
+You can modify this file to adjust PHP settings according to your needs. Remember to rebuild the image after making any changes to the `php.ini` file.
