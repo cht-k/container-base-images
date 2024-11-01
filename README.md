@@ -4,10 +4,10 @@
 
 This Dockerfile builds a PHP base image based on `php:{PHP_VERSION}-fpm` with the following extensions installed:
 
-* **gRPC (v1.66.0):**  For building high-performance, open-source, general-purpose RPC frameworks.
-* **Protobuf (v4.28.1):** Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
-* **OpenTelemetry (v1.0.3):**  A collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis.
-* **Redis (v6.0.2):** An in-memory data structure store, used as a database, cache, and message broker.
+* **gRPC (v1.67.0):**  For building high-performance, open-source, general-purpose RPC frameworks.
+* **Protobuf (v4.28.3):** Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+* **OpenTelemetry (v1.1.0):**  A collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis.
+* **Redis (v6.1.0):** An in-memory data structure store, used as a database, cache, and message broker.
 * **Xdebug (v3.3.2):** A powerful debugging and profiling tool for PHP.
 
 ### Usage
@@ -35,7 +35,7 @@ docker build -f php/Dockerfile.php -t docker.io/your-dockerhub-username/php-fpm 
 
 ### PHP Version
 
-Currently, this image **only supports PHP version 8.2**. The `PHP_VERSION` argument is set to 8.2 by default. 
+Currently, this image **only supports PHP version 8.3**. The `PHP_VERSION` argument is set to 8.3 by default. 
 
 
 ### Included PHP Configuration
