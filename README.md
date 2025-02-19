@@ -4,11 +4,11 @@
 
 This Dockerfile builds a PHP base image based on `php:{PHP_VERSION}-fpm` with the following extensions installed:
 
-* **gRPC (v1.67.0):**  For building high-performance, open-source, general-purpose RPC frameworks.
-* **Protobuf (v4.28.3):** Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
-* **OpenTelemetry (v1.1.0):**  A collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis.
+* **gRPC (v1.70.0):**  For building high-performance, open-source, general-purpose RPC frameworks.
+* **Protobuf (v4.29.3):** Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+* **OpenTelemetry (v1.1.2):**  A collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis.
 * **Redis (v6.1.0):** An in-memory data structure store, used as a database, cache, and message broker.
-* **Xdebug (v3.3.2):** A powerful debugging and profiling tool for PHP.
+* **Xdebug (v3.4.1):** A powerful debugging and profiling tool for PHP.
 
 ### Usage
 
